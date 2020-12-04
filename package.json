@@ -1,0 +1,24 @@
+{
+  "name": "semantic-release",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NileshPatel17/semantic-release.git"
+  },
+  "keywords": [],
+  "author": "Nilesh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NileshPatel17/semantic-release/issues"
+  },
+  "homepage": "https://github.com/NileshPatel17/semantic-release#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
