@@ -1,4 +1,4 @@
-const { author, add, multiply, divide } = require('./index.js')
+import { author, add, multiply, divide } from '../index'
 
 describe('Test cases', () => {
     test('Author name should be correct', () => {
