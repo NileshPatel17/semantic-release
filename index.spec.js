@@ -1,4 +1,4 @@
-const { author, add, multiply } = require('./index.js')
+const { author, add, multiply, divide } = require('./index.js')
 
 describe('Test cases', () => {
     test('Author name should be correct', () => {
@@ -10,5 +10,8 @@ describe('Test cases', () => {
     })
     test('multiply', ()=>{
         expect(multiply(3,2)).toEqual(6)
+    })
+    test('divide', ()=>{
+        expect(divide(4,2)).toEqual(2)
     })
 })
