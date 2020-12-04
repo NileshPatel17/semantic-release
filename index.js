@@ -18,6 +18,5 @@ module.exports = {
     version,
     add,
     multiply,
-    divide,
-    TitleCase
+    divide
 }
