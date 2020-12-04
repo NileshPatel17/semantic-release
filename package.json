@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release",
+  "name": "@patelnilesh/semantic-release",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
