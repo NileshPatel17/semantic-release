@@ -8,8 +8,7 @@ function multiply(a,b){
     return a*b;
 }
 function divide(a,b){
-    const ret= a/b;
-    return ret;
+    return a/b;
 }
 
 module.exports = {
