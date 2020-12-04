@@ -11,11 +11,16 @@ function divide(a,b){
     return a/b;
 }
 
+function beta(){
+    return version
+}
+
 module.exports = {
     author,
     name,
     version,
     add,
     multiply,
-    divide
+    divide,
+    beta
 }
