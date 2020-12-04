@@ -12,7 +12,7 @@ function divide(a,b){
 }
 
 function beta(){
-    return version
+    return `version: ${version}`
 }
 
 module.exports = {
