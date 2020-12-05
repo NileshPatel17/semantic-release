@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "commit": "git-cz",
     "test": "jest"
   },
   "repository": {
@@ -19,7 +20,12 @@
   },
   "homepage": "https://github.com/NileshPatel17/semantic-release#readme",
   "devDependencies": {
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
     "jest": "^26.6.3",
     "semantic-release": "^17.3.0"
+  },
+  "csConfig": {
+    "path": "node_modules/cz-convetional-changelog"
   }
 }
