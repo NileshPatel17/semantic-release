@@ -1,4 +1,4 @@
-import { author, add, multiply, divide } from '../index'
+import { author, add, multiply, divide, TitleCase } from '../index'
 
 describe('Test cases', () => {
     test('Author name should be correct', () => {
@@ -13,5 +13,9 @@ describe('Test cases', () => {
     })
     test('divide', ()=>{
         expect(divide(4,2)).toEqual(2)
+    })
+    test('TitleCase', ()=>{
+        expect(TitleCase('nilesh patel')).toEqual('Nilesh Patel')
+        expect(TitleCase('nilesh')).toEqual('Nilesh')
     })
 })
